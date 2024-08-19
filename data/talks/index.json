@@ -1,5 +1,28 @@
 [
   {
+    "title": "Minha jornada na Ciência da Computação: Do diploma ao Google",
+    "imageUrl": "",
+    "slidesUrl": "https://pt.slideshare.net/slideshow/minha-jornada-na-ciencia-da-computacao-do-diploma-ao-google/271101773",
+    "slideId": "key/uNBLZCbcdXrSRK",
+    "projects": [],
+    "places": [
+      {
+        "name": "Semana Acadêmica IC UFMT 2023",
+        "date": "05/07/2023",
+        "local": "IC UFMT, Cuiabá",
+        "videoUrl": "https://www.youtube.com/watch?v=-R0cm4-k4GU&t=12643s",
+        "eventUrl": "https://www.ic.ufmt.br/noticias/semana-academica-do-ic-2023/"
+      },
+      {
+        "name": "Semana Acadêmica IC UFMT 2024",
+        "date": "19/08/2024",
+        "local": "IC UFMT, Cuiabá",
+        "videoUrl": "",
+        "eventUrl": "https://www.even3.com.br/semana-academica-2024/"
+      }
+    ]
+  },
+  {
     "title": "Como melhorei a performance de consulta no Bigquery em 50x: uma história sobre protocolos e formatos de dados",
     "imageUrl": "",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/bigquery-performance-improvements-storage-apipdf",
