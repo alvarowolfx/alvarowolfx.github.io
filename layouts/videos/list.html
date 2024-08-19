@@ -1,7 +1,8 @@
 {{- define "main" }}
 
 {{- $tmpPages := where site.RegularPages "Type" "in" (slice "videos" "talks" "articles") }}
-{{- $pages := where $tmpPages ".Params.videourl" "!=" "" }}
+{{- $tmpPages := where $tmpPages ".Params.videourl" "!=" "" }}
+{{- $pages := where $tmpPages ".Params.videourl" "!=" nil }}
 
 <header class="page-header">
   <h1>
