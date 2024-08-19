@@ -3,9 +3,10 @@ title: "How I merged/migrated my personal website and content using Hugo"
 summary: "I noticed that has been a while since I wrote an actual article and I was kind of not satisfied with my current state of some of my content being spread between my Github, Medium and Youtube. I was always trying to get my website to be up to date, but was the process was too manual. So, as I good engineer, I decided to over-engineer my own personal website and try to put everything into a central place."
 date: 2021-03-09T20:59:20-04:00
 author: "Alvaro Viebrantz"
-tags: ["hugo", "go", "youtube", "medium", ""]
+tags: ["hugo", "go", "youtube", "medium"]
 draft: false
-image: /articles/2021/2021-03-09_how-i-merged-migrated-my-personal-website-and-content-using-hugo/images/hugo-migration.png
+cover:
+  image: /articles/2021/2021-03-09_how-i-merged-migrated-my-personal-website-and-content-using-hugo/images/hugo-migration.png
 images:
   - /articles/2021/2021-03-09_how-i-merged-migrated-my-personal-website-and-content-using-hugo/images/hugo-migration.png
   - /articles/2021/2021-03-09_how-i-merged-migrated-my-personal-website-and-content-using-hugo/images/hugo.png
@@ -13,11 +14,11 @@ associated:
 #  - "https://dev.to/blablabla/blabla"
 ---
 
-2020 was not easy for anyone. And for me person	ally, I wasn't able to keep producing content to the community the way that I was used to do before. Even some of my (usually) crazy IoT experiments that I build, ended up just catching dust on some Github repositories, with no article or more content about them.
+2020 was not easy for anyone. And for me personally, I wasn't able to keep producing content for the community the way that I was used to doing before. Even some of my (usually) crazy IoT experiments that I build, ended up just catching dust on some Github repositories, with no article or more content about them.
 
-Even with 2020 being this crazy year, I ended up having a nice twist by the end of it, where I joined a early stage IoT startup in San Francisco called [golioth.io](https://golioth.io). And the way that me and the founder met each other was due to some of my experiments with IoT, this time one that involved Web Assembly and IoT. You can see the [project here](https://github.com/alvarowolfx/wasm-arduino-wifi) and some of the talks [here](/talks/2020/2020-10-28-making-it-easier-to-make-things-webassembly-and-the-internet-of-things/) and [here](/talks/2020/2020-07-16-webassembly-alem-de-web-casos-de-uso-em-iot/).
+Even with 2020 being this crazy year, I ended up having a nice twist by the end of it, when I joined an early-stage IoT startup in San Francisco called [golioth.io](https://golioth.io). The way that the founder and I met each other was due to some of my experiments with IoT, this time one that involved Web Assembly and IoT. You can see the [project here](https://github.com/alvarowolfx/wasm-arduino-wifi) and some of the talks [here](/talks/2020/2020-10-28-making-it-easier-to-make-things-webassembly-and-the-internet-of-things/) and [here](/talks/2020/2020-07-16-webassembly-alem-de-web-casos-de-uso-em-iot/).
 
-Enough said, wherever a new year starts, I always try to get back in the game and produce some content to help the dev community. I noticed that has been a while since I wrote an actual article and I was kind of not satisfied with my current state of some of my content being spread between my Github, Medium and Youtube. I was always trying to get my website to be up to date, but was the process was too manual. So, I decided to start there and do some changes.
+Enough said, wherever a new year starts, I always try to get back in the game and produce some content to help the dev community. I noticed that has been a while since I wrote an actual article and I was kind of not satisfied with the current state of some of my content being spread between my Github, Medium and YouTube. I was always trying to get my website to be up to date, but the process was too manual. So, I decided to start there and make some changes.
 
 ### What I want to build
 
