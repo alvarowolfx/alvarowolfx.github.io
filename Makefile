@@ -6,6 +6,9 @@ sync:
 build:
 	hugo
 
+serve:
+	hugo server
+
 deploy-preview: build
 	firebase hosting:channel:deploy v2_preview
 
